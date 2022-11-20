@@ -12,7 +12,7 @@ const htmlArray = [];
     for (let i = 0; i < parsedResponse.data.length; i++)
     {
         const src = `https://www.artic.edu/iiif/2/${parsedResponse.data[i].image_id}/full/843,/0/default.jpg`
-        const imgHtml = `<div class="container d-flex align-items-center justify-content-center flex-wrap">
+        const imgHtml = `<div id="imageContainer d-flex align-items-center justify-content-center flex-wrap">
         <div class="box">
             <div class="body">
                 <div class="imgContainer">
